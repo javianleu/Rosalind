@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening DNA strand file
-rabbitF = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind Problems/venv/Rabbits and Recurrence Relations/rosalind_fib.txt", "r")
+rabbitF = open("Rabbits and Recurrence Relations/rosalind_fib.txt", "r")
 # Reading DNA strand file
 if rabbitF.mode == 'r':
     rabbits = rabbitF.read()

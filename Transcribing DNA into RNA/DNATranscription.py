@@ -3,7 +3,7 @@
 
 
 # Opening DNA strand file
-dnaF = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind Problems/venv/Transcribing DNA into RNA/rosalind_rna.txt", "r")
+dnaF = open("Transcribing DNA into RNA/rosalind_rna.txt", "r")
 # Reading DNA strand file
 if dnaF.mode == 'r':
     dna = dnaF.read()

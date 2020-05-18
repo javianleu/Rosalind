@@ -1,7 +1,7 @@
 # Consensus and Profile
 # Javier Anleu - 17149
 
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Consensus and Profile/rosalind_cons.txt")
+file = open("Consensus and Profile/rosalind_cons.txt")
 sequences = file.read()
 
 # Sequence processing

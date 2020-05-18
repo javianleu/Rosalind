@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening and reading of file (to string)
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Computing GC Content/rosalind_gc.txt")
+file = open("Computing GC Content/rosalind_gc.txt")
 sequences = file.read()
 
 # Removing linespaces

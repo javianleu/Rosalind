@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Open and read file
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Translating RNA into Protein/rosalind_prot.txt")
+file = open("Translating RNA into Protein/rosalind_prot.txt")
 mRNA = file.read()
 
 # Length of RNA sequence

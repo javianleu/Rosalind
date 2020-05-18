@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening and reading file
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Finding a Motif in DNA/rosalind_subs.txt")
+file = open("Finding a Motif in DNA/rosalind_subs.txt")
 data = file.read()
 
 # Obtaining sequence and motif

@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening and reading the file
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Mendel's First Law/rosalind_iprb.txt")
+file = open("Mendel's First Law/rosalind_iprb.txt")
 props = file.read()
 
 # Obtaining numbers

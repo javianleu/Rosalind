@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening file
-file = open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind/Counting Point Mutations/rosalind_hamm.txt")
+file = open("Counting Point Mutations/rosalind_hamm.txt")
 sequences = file.read()
 
 # Separating sequences

@@ -2,7 +2,7 @@
 # Javier Anleu - 17149
 
 # Opening DNA strand file
-dnaF= open("C:/Users/javia/OneDrive - Universidad del Valle de Guatemala/UVG/3er Año/Segundo Semestre 2019/Bioinformática/Rosalind Problems/venv/Counting DNA Nucleotides/rosalind_dna.txt", "r")
+dnaF= open("Counting DNA Nucleotides/rosalind_dna.txt", "r")
 
 # Reading DNA strand file
 if dnaF.mode == 'r':

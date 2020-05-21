@@ -28,7 +28,7 @@ for i in range(len(data)):
 # print (names)
 # print (seqs)
 
-print ("Processing...")
+print ("Processing...\n")
 
 # Import of module to find all common substrings
 import py_common_subseq as commonSubs
@@ -38,13 +38,14 @@ def commonSubstrings(s1, s2):
     sorted = []
     common = commonSubs.find_common_subsequences(s1,s2)
     for i in common:
-        if i != "":
+        if i != "" and len(i)==3:
             sorted.append(i)
     sorted.sort(key=len)
     sorted.reverse()
     return sorted
 
-    # Construction of Common Substrings Matrix
+print ("Common Substrings Matrix...\n")
+# Construction of Common Substrings Matrix
 commonsMatrix = []
 for i in range(len(names)):
     seq = []
@@ -69,6 +70,7 @@ for i in range(len(names)):
         s.append(0)
     adjacencyMatrix.append(s)
 
+print ("Adjacency Matrix...\n")
 for i in range(len(names)):
     for j in range(len(names)):
         for k in range(len(commonsMatrix[i][j])):

@@ -9,7 +9,7 @@
 file = open("A Brief Introduction to Graph Theory/rosalind_grph.txt")
 data = file.read()
 
-data = data.split("\n")
+data = data.split(">")
 
 for i in data:
     if i == "":
@@ -19,10 +19,8 @@ names = []
 seqs = []
 
 for i in range(len(data)):
-    if i%2==0:
-        names.append(data[i][1:])
-    else:
-        seqs.append(data[i])
+    names.append(data[i][0:13])
+    seqs.append(data[i][14:])
 
 
 # print (names)
